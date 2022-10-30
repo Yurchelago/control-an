@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="center">
+                <h1>Контроль МХ</h1>
+                <img src="img\an.png" alt="">
+                <h2 data-an="7529" class="selected">АН-7529М</h2>
+                <h2 data-an="7560">АН-7560М</h2>
+                <p>Согласно руководству по эксплуатации</p>
+                <h3>5М2.840.126 РЭ</h3>
+            </div>
+        </header>
+        <main>
+                <div class="input-data">
+                    <input type="text" value="">
+                    <input type="text" value="">
+                    <input type="text" value="">
+                    <input type="text" value="">
+                    <input type="text" value="">
+                    <input type="text" value="">
+                    <input type="text" value="">
+                    <input type="text" value="">
+                    <input type="text" value="">
+                    <input type="text" value="">
+                </div>
+                <button class="btnCalc">Расчитать</button>
+
+                <div class="output-data hiden">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>Результаты анализов Ni max и Ni min, содержащие грубые погрешности, отбрасывают при выполнении условия:</p>
+                    <p>&nu; &nbsp; > &nbsp; &nu;0,95</p>
+                    <p>где&nbsp; &nu;0,95 = 2,294 <span class="small">(для n = 10)</span></p>
+                    <div class="nu-min">&nu;</div>
+                    <div class="nu-max">&nu;</div>
+                    <div class="sn"></div>
+                    <div class="limit"></div>
+                    <div class="conclusion"></div>
+
+                </div>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

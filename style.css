@@ -1,0 +1,147 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    flex: 16;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*    ===========    */
+
+body {
+    color: #fff;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #222629;
+    padding-bottom: 20px;
+}
+
+header img {
+    display: inline-block;
+    max-width: 100%;
+    margin-top: 60px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    padding-top: 50px;
+    margin-bottom: 10px;
+    font-size: 42px;
+    
+}
+
+header h3 {
+    margin-top: 0px;
+}
+
+header h2 {
+    padding: 20px;
+    text-align: center;
+    color: #888;
+}
+
+header h2.selected {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+}
+
+header h2.protocol {
+    border: none;
+    font-size: 30px;
+}
+
+main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-data {
+    display: flex;
+    flex-direction: column;
+    max-width: 50px;
+    margin: 0 auto;
+}
+
+.input-data input {
+    margin-top: 10px;
+}
+
+.btnCalc {
+    margin-top: 50px;
+    width: 100px;
+}
+
+.output-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.output-data ul {
+    margin-bottom: 30px;
+}
+
+.output-data p {
+    text-align: center;
+    margin: 5px;
+}
+
+.output-data li {
+    margin-top: 10px;
+}
+
+.output-data div {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.sn, .limit, .conclusion {
+    font-size: 1.2em;
+}
+
+.small {
+    font-size: 0.8em;
+}
+
+.hiden {
+    display: none;
+}
+
+.green {
+    color: #86c232;
+}
+
+.red {
+    color: #c30720;
+}
